@@ -1,0 +1,26 @@
+body{
+    background-image:url('https://source.unsplash.com/1600x900/?dark,technology');
+    color: #FF3031;
+}
+
+.login-container{
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+.fixed-action-btn{
+    right:50px !important; 
+    margin-left: 5%; 
+}
+
+p{
+    margin: 10px 0 !important;
+}
+
+.btn-float{
+    float: left;
+    margin-right: 10px;
+}
+.img-small{
+    width: 170px;
+}

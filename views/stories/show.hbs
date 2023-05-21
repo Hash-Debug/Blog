@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col s12 m8">
+        <h3>{{stories.title}}
+            <a href="edit/{{stories._id}}"><i class="fa fa-edit"></i></a>
+        </h3>
+        <div class="card story">
+            <div class="card-content">
+                <span class="card-title">{{formatDate date 'MMMM Do YYYY, h:mm:ss a'}}</span>
+                {{{stories.body}}}
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m4">
+        <div class="card center-align">
+            <div class="card-content">
+                <span class="card-title">{{stories.user.displayName}}</span>
+                <img src="{{stories.user.image}}" class="circle responsive-img img-small">
+            </div>
+            <div class="card-action">
+                <a href="/stories/user/{{stories.user._id}}">More From {{stories.user.firstName}}</a>
+            </div>
+        </div>
+    </div>
+</div>
