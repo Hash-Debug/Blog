@@ -19,7 +19,7 @@ To run this project, you will need to add the following environment variables to
 Clone the project repo
 
 ```bash
-  git clone https://github.com/Anirudh-sk/Blog
+  git clone https://github.com/Hash-Debug/Blog
 ```
 
 Go to the project directory
